@@ -81,3 +81,74 @@
     background-color: rgba(0, 136, 169, 1);
   }
   
+
+  .margin-top-bottom {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+  }
+  
+  .margin-top-bottom-4 {
+    margin-top: 30vh !important;
+  }
+  
+  .margin-left-right {
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 1, 1, 1, 1;
+  }
+  
+  .img-fluid {
+    height: auto;
+    width: 70%;
+    border-radius: 0.8rem;
+  }
+  
+  .text-bold {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0.3em;
+  }
+  
+  .column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .padding-3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .column p {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .text-normal {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5rem;
+    word-spacing: 0.2em;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
