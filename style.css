@@ -151,4 +151,20 @@
     display: flex;
     flex-wrap: wrap;
   }
+  footer {
+    padding: 1.5rem !important;
+  }
+  footer p {
+    font-family: "Ubuntu", sans-serif;
+  }
   
+  .footer-hr {
+    color: grey;
+  }
+  .fixed-bottom {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }  
